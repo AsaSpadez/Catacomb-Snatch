@@ -11,6 +11,7 @@ import com.mojang.mojam.MojamComponent;
 import com.mojang.mojam.entity.Entity;
 import com.mojang.mojam.entity.building.ShopItemBomb;
 import com.mojang.mojam.entity.building.ShopItemHarvester;
+import com.mojang.mojam.entity.building.ShopItemMachineGun;
 import com.mojang.mojam.entity.building.ShopItemRaygun;
 import com.mojang.mojam.entity.building.ShopItemShotgun;
 import com.mojang.mojam.entity.building.ShopItemTurret;
@@ -119,12 +120,14 @@ public class GameMode {
 		newLevel.addEntity(new ShopItemTurret(32 * (newLevel.width / 2 - 1.5), 4.5 * 32, Team.Team2));
 		newLevel.addEntity(new ShopItemHarvester(32 * (newLevel.width / 2 - .5), 4.5 * 32, Team.Team2));
 		newLevel.addEntity(new ShopItemBomb(32 * (newLevel.width / 2 + .5), 4.5 * 32, Team.Team2));
+		newLevel.addEntity(new ShopItemMachineGun(32 * (newLevel.width / 2 + 1.5), 5.5 * 32, Team.Team2));
 		newLevel.addEntity(new ShopItemShotgun(32 * (newLevel.width / 2 - 2.5), 6.5 * 32, Team.Team2));
 		newLevel.addEntity(new ShopItemRaygun(32 * (newLevel.width / 2 - 2.5), 5.5 * 32, Team.Team2));
 		
 		newLevel.addEntity(new ShopItemTurret(32 * (newLevel.width / 2 - 1.5), (newLevel.height - 4.5) * 32, Team.Team1));
 		newLevel.addEntity(new ShopItemHarvester(32 * (newLevel.width / 2 - .5), (newLevel.height - 4.5) * 32, Team.Team1));
 		newLevel.addEntity(new ShopItemBomb(32 * (newLevel.width / 2 + .5), (newLevel.height - 4.5) * 32, Team.Team1));
+		newLevel.addEntity(new ShopItemMachineGun(32 * (newLevel.width / 2 + 1.5), (newLevel.height - 5.5) * 32, Team.Team1));
 		newLevel.addEntity(new ShopItemShotgun(32 * (newLevel.width / 2 - 2.5), (newLevel.height - 6.5) * 32, Team.Team1));
 		newLevel.addEntity(new ShopItemRaygun(32 * (newLevel.width / 2 - 2.5), (newLevel.height - 5.5) * 32, Team.Team1));
 

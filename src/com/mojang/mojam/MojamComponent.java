@@ -1,5 +1,3 @@
-//Hello
-
 package com.mojang.mojam;
 
 import java.awt.AWTException;
